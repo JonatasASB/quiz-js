@@ -48,6 +48,7 @@ h1 {
     margin: 20px 0;
 }
 .option {
+    padding-left: 15px;
     display: flex;
     align-items: center;
     height: 40px;
@@ -118,6 +119,8 @@ h1 {
 }
 
 footer {
+    width: 100%;
+    text-align: center;
     margin-top: 20px;
     color: #FFF;
     font-size: 13px;
