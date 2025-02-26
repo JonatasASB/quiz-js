@@ -92,4 +92,44 @@ let questions = [
         ],
         answer: 0
     },
+    {
+        question: 'O que significa "DOM" ?',
+        options: [
+            'Document Object Model',
+            'Data Object Model',
+            'Dynamic Object Model',
+            'Document Object Manager'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Qual a sintaxe correta para selecionar um elemento HTML?',
+        options: [
+            'document.querySelector((div))',
+            'document.querySelector(div)',
+            'document.querySelector("#id")',
+            'document.querySelector.div'
+        ],
+        answer: 2
+    },
+    {
+        question: 'document.querySelector("#id").style.color = "red";, o que esse código faz?',
+        options: [
+            'Muda o fundo do elemento HTML para vermelho',
+            'Muda a cor de fonte da classe "id" para vermelho',
+            'Muda a cor de fundo da classe "id" para vermelho',
+            'Muda a cor de fonte do id "id" para vermelho'
+        ],
+        answer: 3
+    },
+    {
+        question: 'Assinale a alternativa correta',
+        options: [
+            'JavaScript e Java são a mesma coisa, Java é apenas uma abreviação de JavaScript',
+            'JavaScript funciona apenas no navegador',
+            'O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). ',
+            'JavaScript foi criado no ano de 2015 por Elon Musk'
+        ],
+        answer: 2
+    }
 ];
